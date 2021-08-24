@@ -1,0 +1,103 @@
+/* style.css */
+:root {
+  --main-color: #f91e00;
+  --sub-color1: #ff8825;
+  --sub-color2: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  min-width: 1200px;
+}
+p {
+  line-height: 1.6;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+}
+header {
+  width: 100%;
+  min-width: 1200px;  
+  height: 90px;
+  background: #F4574C;
+  margin: 0 auto;
+  position: relative;
+  z-index: 999;
+}
+.container {  
+  /* width: 1200px;  */
+  margin: 0 auto;
+  position: relative;
+}
+.container {  
+  width: 1200px; 
+  margin: 0 auto;
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+#gnb {
+  position: absolute;
+  right: 40px;
+  top: 35px;
+}
+#gnb > ul > li {
+  display: inline-block;
+  margin-left: 2em;
+  font-size: 18px;  
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+  
+#gnb > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+/* main-visual */
+
+/* businesscard */
+/* #businesscard .container {
+  background: #FAA7A1;
+  width: 100%;
+}
+#businesscard .container img {
+  position: relative;
+  margin: 0 auto;
+} */
+
+
+/* about */
+#about .container .left {
+  display: flex;
+}
+#about .container .left .col1 {
+  position: relative;
+  color: #F4574C;
+  transform: rotate(-90deg);
+  top: 170px;
+}
+#about .container .left .col1 h1 {
+  border-bottom: 5px solid #F4574C;  
+}
+#about .container .left .col2 {
+  position: relative;
+  
+}
