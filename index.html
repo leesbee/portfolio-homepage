@@ -4,26 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="https://webdevtrick.com/wp-content/uploads/javascript-typing-effect.jpg">
   <title>LEE SEUL BEE</title>
   <!-- icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
-  <!-- pc용 css -->
-  <link rel="stylesheet" href="pc.css" media="screen and (min-width:768px)">
-  <!-- mobile용 css -->
-  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 767px)">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <!--font-->
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- css -->
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="main.js"></script>
+        <!-- Plug-in Here(플러그인) -->
+        <script src="./do_type.min.js"></script>
 </head>
 <body>
   <header>
@@ -46,10 +40,15 @@
   </header>
   <section id="main-visual">
     <div class="container">
+      <h1 class="do_type" title="2021">2021</h1>
+      <script>
+        // run auto type
+        do_type.type('.do_type');  
+        </script>   
+
       <div class="gallery">
-        <img src="images/main visual.jpg" alt="">
-      </div> 
-      
+        <img src="images/main visual3.jpg" alt="">
+      </div>       
     </div>
   </section>
   <section id="businesscard">
@@ -248,6 +247,13 @@
       </div>
     </div>
   </section>
+  <section id="uiux-main">
+    <div class="container">
+      <h1>OTHER<br>WORKS</h1>
+      <a href=""><img src="images/branding.png" alt="" class="two"></a>
+      <a href=""><img src="images/poster.png" alt="" class="two"></a>
+    </div>
+  </section>
   <section id="otherdesign">
     <div class="container">
       <h2>OTHER WORKS</h2>
@@ -289,6 +295,23 @@
           <img src="images/logo-design.png" alt="logo-design" class="sticker">
           <img src="images/logo-mock.jpg" alt="logo-mock">
         </div>        
+      </div>  
+      <div class="page-title">
+        <img src="images/uiuxdesign.png" alt="" class="page-title">
+      </div>
+      <div class="sitelink">
+        <a href="#">사이트 바로가기</a>
+      </div>   
+    </div>
+    <div class="projectpage">
+      <div class="name">
+        <img src="images/left-bar.png" alt="">
+        <h2>BRANDING DESIGN</h2>
+        <h3>빵순이 떡순이</h3>
+      </div> 
+      <div class="pj-contents">
+        
+              
       </div>     
     </div>     
   </section>
