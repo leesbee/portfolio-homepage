@@ -26,6 +26,10 @@ a {
 }
 h1 {
   font-size: 50px;
+  font-weight: 800;
+}
+h2 {
+  font-weight: 800;
 }
 header {
   width: 100%;
@@ -68,9 +72,19 @@ header h1 {
   text-decoration: none;
   color: #fff;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 800;
 }
 /* main-visual */
+#main-visual .do_type {
+  font-size: 120px;
+  font-weight: 800;
+  color: #F4574C;
+  margin-left: 85px;
+  margin-top: 380px;
+  position: absolute;
+  border-right: 1px solid transparent(0.0);
+}
+
 #main-visual .gallery {
   width: 100%;
   height: 1200px;
@@ -114,21 +128,25 @@ header h1 {
   color: #F4574C;
   transform: rotate(-90deg);
   margin-right: -200px;
+  font-weight: 800;
 }
 #about .container .left .col2 p {
   font-size: 30px;
   margin-top: 20px;
+  font-weight: 800;
 }
 #about .container .left .introduce p {
   font-size: 25px;
   margin-left: -200px;
   margin-top: 40px;
+  font-weight: 700;
 }
 #about .container .left .introduce span {
   color: #F4574C;
 }
 #about .container .left .col1 h1 {
   border-bottom: 5px solid #F4574C;  
+  font-weight: 800;
 }
 #about .container .left .col2 {
   position: relative;  
@@ -140,11 +158,12 @@ header h1 {
 #about .container .right h2 {
   font-size: 25px;
   color: #F4574C;
-  font-weight: bold;
+  font-weight: 700;
 }
 #about .container .right p {
   font-size: 20px;
   padding: 20px 0 30px 0;  
+  font-weight: 700;
 }
 /* skills */
 #skills > .container {
@@ -223,6 +242,10 @@ header h1 {
   text-align: center;
   margin-left: 60px;
 }
+#uiux-main .two {
+  margin-left: 210px;
+
+}
 
 /* uxux design */
 
@@ -249,7 +272,7 @@ header h1 {
   margin-right: 37px;
   float: left;
   border-bottom: 2px solid #ccc;
-  font-weight: bold;
+  font-weight: 800;
 }
 .smallgnb li:last-child {
   margin-right: 0px;
@@ -353,7 +376,7 @@ header h1 {
   margin-top: -80px;
 }
 #uiuxdesign .projectpage .sitelink {
-  margin-left: 980px;
+  margin-left: 985px;
   margin-top: -680px;
   border: 1px solid #fff;
   width: 200px;
@@ -366,19 +389,26 @@ header h1 {
 }
 
 /* otherdesign */
+#otherdesign .container {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+  display: relative;
+}
 #otherdesign .smallgnb {
   /* width: 837px; */
   height: 36.5px;
   margin-top: 37px;
   margin-left: 360px;
 }
+
 #otherdesign .smallgnb li {
   width: 180px;
   text-align: center;
   margin-right: 37px;
   float: left;
   border-bottom: 2px solid #ccc;
-  font-weight: bold;
+  font-weight: 800;
 }
 #otherdesign h2 {
   text-align: center;
@@ -463,12 +493,12 @@ header h1 {
 }
 #otherdesign .page-title {
   text-align: right;
-  margin-right: 60px;
-  margin-top: -80px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 #otherdesign .projectpage .sitelink {
   margin-left: 980px;
-  margin-top: -680px;
+  margin-top: -635px;
   border: 1px solid #fff;
   width: 200px;
   height: 40px;
@@ -478,7 +508,6 @@ header h1 {
 #otherdesign .projectpage .sitelink a {
   color: #fff;
 }
-
 /* contact */
 #contact {
   margin: 0 auto;
@@ -500,6 +529,7 @@ header h1 {
   font-size: 60px;
   line-height: 1.2em;
   margin-top: 95px;
+  font-weight: 700;
 }
 #contact .container .snslink {
   display: flex;
@@ -511,6 +541,7 @@ header h1 {
   text-align: center;
   margin-right: 65px;
   color: #F4574C;
+  font-weight: 700;
 }
 #contact .container .call {
   display: flex;
@@ -519,11 +550,13 @@ header h1 {
 #contact .container .call a {
   margin-left: 432px;
   margin-top: 150px;
+  font-weight: 700;
 }
 #contact .container .call p {
   margin-top: 155px;
   margin-left: 10px;
   font-size: 20px;
+  font-weight: 700;
 }
 /* footer */
 footer {
@@ -534,10 +567,10 @@ footer {
   padding-top: 40px;
   text-align: center;
   /* font-weight: bold;  */
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }  
 footer .container .logo {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 footer .container > p {
   line-height: 0.8em;
